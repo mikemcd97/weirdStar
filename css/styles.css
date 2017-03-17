@@ -23,6 +23,8 @@ body {
 
 #jordan {
 	position: fixed;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 a:link{
