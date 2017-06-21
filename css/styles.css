@@ -46,11 +46,10 @@ a:link{
 h2:hover {
 	color: #ff66cc;
 }
-
-/*.videoWrapper {
+@media screen and (max-width: 800px){
+.videoWrapper {
 	position: relative;
-	right: -25%;
-	padding-bottom: 56.25%; 16:9
+	padding-bottom: 56.25%;
 	padding-top: 25px;
 	height: 0;
 	margin-bottom: 0;
@@ -62,11 +61,16 @@ h2:hover {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 50%;
-	height: 50%;
+	width: 100%;
+	height: 100%;
 }
-*/
+
+#title {
+	font-size: 4rem;
+	margin: 0;
 
 
+}
+}
 
 
